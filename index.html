@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Luxe Beauty Studio | Bridal, Skin, Hair &amp; Nails</title>
+    <meta
+      name="description"
+      content="Luxe Beauty Studio is a fictional luxury salon. This site is a portfolio demo."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="nav" id="top">
+      <div class="wrap nav-in">
+        <a href="#home" class="logo" aria-label="Luxe Beauty Studio, home"
+          ><span class="logo-mark">L</span
+          ><span>Luxe <em>Beauty Studio</em></span></a
+        >
+        <button
+          class="burger"
+          id="burger"
+          aria-expanded="false"
+          aria-controls="menu"
+          aria-label="Open menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="menu" class="menu" aria-label="Main">
+          <a href="#home">Home</a><a href="#services">Services</a
+          ><a href="#about">About</a><a href="#gallery">Gallery</a
+          ><a href="#contact">Contact</a>
+          <a href="#booking" class="btn btn-dark btn-sm">Book Appointment</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <div class="wrap hero-in">
+          <div class="hero-copy">
+            <p class="kicker">Private beauty atelier in Lakeview</p>
+            <h1>Your Beauty, <em>Elevated.</em></h1>
+            <p class="lead">
+              Considered makeup, skin, hair and nail care in a calm, candlelit
+              studio. Every appointment is one-to-one, unhurried, and tailored
+              to you.
+            </p>
+            <div class="cta-row">
+              <a href="#booking" class="btn btn-dark">Book Your Appointment</a>
+              <a href="#services" class="btn btn-line">Explore Services</a>
+            </div>
+            <ul class="hero-facts">
+              <li><strong>12 yrs</strong> of craft</li>
+              <li><strong>4.9</strong> average rating</li>
+              <li><strong>3,000+</strong> appointments</li>
+            </ul>
+          </div>
+          <figure class="arch hero-img">
+            <img
+              src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=75"
+              alt="Makeup artist applying finishing touches to a client's makeup"
+              width="900"
+              height="1100"
+              fetchpriority="high"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="sec" id="services">
+        <div class="wrap">
+          <div class="head reveal">
+            <h2>Services, signature and simple</h2>
+            <p>
+              Every treatment begins with a short consultation. Prices are
+              samples for this demo.
+            </p>
+          </div>
+          <div class="cards">
+            <article class="card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1457972729786-0411a3b2b626?auto=format&fit=crop&w=600&q=70"
+                alt="Bridal makeup being applied"
+                loading="lazy"
+                width="600"
+                height="420"
+              />
+              <div class="card-b">
+                <h3>Bridal Makeup</h3>
+                <p>
+                  Trial and wedding-day application with long-wear, camera-ready
+                  finish.
+                </p>
+                <p class="price">from $280</p>
+              </div>
+            </article>
+            <article class="card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=70"
+                alt="Client receiving a facial treatment"
+                loading="lazy"
+                width="600"
+                height="420"
+              />
+              <div class="card-b">
+                <h3>Signature Facial</h3>
+                <p>
+                  Deep cleanse, gentle exfoliation, massage and a hydrating
+                  mask. 60 minutes.
+                </p>
+                <p class="price">from $120</p>
+              </div>
+            </article>
+            <article class="card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=70"
+                alt="Hairstylist styling long wavy hair"
+                loading="lazy"
+                width="600"
+                height="420"
+              />
+              <div class="card-b">
+                <h3>Hair Styling</h3>
+                <p>
+                  Cut, blow-dry and occasion styling, from soft waves to
+                  polished updos.
+                </p>
+                <p class="price">from $85</p>
+              </div>
+            </article>
+            <article class="card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&q=70"
+                alt="Neutral manicured nails"
+                loading="lazy"
+                width="600"
+                height="420"
+              />
+              <div class="card-b">
+                <h3>Manicure</h3>
+                <p>
+                  Shaping, cuticle care and gel or classic polish in a curated
+                  palette.
+                </p>
+                <p class="price">from $55</p>
+              </div>
+            </article>
+            <article class="card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=600&q=70"
+                alt="Skincare serum bottles on a neutral surface"
+                loading="lazy"
+                width="600"
+                height="420"
+              />
+              <div class="card-b">
+                <h3>Skincare Treatments</h3>
+                <p>
+                  Peels, LED and targeted treatments with a take-home routine
+                  plan.
+                </p>
+                <p class="price">from $160</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec-champ" id="about">
+        <div class="wrap about">
+          <figure class="arch reveal">
+            <img
+              src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=70"
+              alt="The Luxe Beauty Studio team of stylists and makeup artists in the salon"
+              loading="lazy"
+              width="800"
+              height="1000"
+            />
+          </figure>
+          <div class="reveal">
+            <h2>A quieter kind of luxury</h2>
+            <p class="lead">
+              Luxe Beauty Studio opened in 2014 with one chair and a simple
+              idea: great beauty work should feel personal. Today our team of
+              eight artists still keeps the studio small, so you are never
+              rushed.
+            </p>
+            <dl class="stats">
+              <div>
+                <dt>12</dt>
+                <dd>years of experience</dd>
+              </div>
+              <div>
+                <dt>8</dt>
+                <dd>certified artists</dd>
+              </div>
+              <div>
+                <dt>900+</dt>
+                <dd>brides styled</dd>
+              </div>
+            </dl>
+            <button class="btn btn-dark" id="expertsBtn">
+              Meet Our Experts
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="gallery">
+        <div class="wrap">
+          <div class="head reveal">
+            <h2>From the studio</h2>
+            <p>Select any image to view it larger.</p>
+          </div>
+          <div class="grid" id="grid">
+            <button
+              class="g g-tall"
+              data-full="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1600&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=600&q=70"
+                alt="Editorial makeup look with soft eyes"
+                loading="lazy"
+                width="600"
+                height="800"
+              />
+            </button>
+            <button
+              class="g"
+              data-full="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1600&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=70"
+                alt="Facial treatment in progress"
+                loading="lazy"
+                width="600"
+                height="600"
+              />
+            </button>
+            <button
+              class="g"
+              data-full="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1600&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=70"
+                alt="Glossy long hair styled in loose waves"
+                loading="lazy"
+                width="600"
+                height="600"
+              />
+            </button>
+            <button
+              class="g g-wide"
+              data-full="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=70"
+                alt="Bright salon interior with styling chairs and mirrors"
+                loading="lazy"
+                width="800"
+                height="500"
+              />
+            </button>
+            <button
+              class="g"
+              data-full="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1600&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&q=70"
+                alt="Manicure in soft neutral tones"
+                loading="lazy"
+                width="600"
+                height="600"
+              />
+            </button>
+            <button
+              class="g g-tall"
+              data-full="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1600&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=600&q=70"
+                alt="Luxury skincare products arranged on a shelf"
+                loading="lazy"
+                width="600"
+                height="800"
+              />
+            </button>
+            <button
+              class="g"
+              data-full="https://images.unsplash.com/photo-1457972729786-0411a3b2b626?auto=format&fit=crop&w=1600&q=80"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1457972729786-0411a3b2b626?auto=format&fit=crop&w=600&q=70"
+                alt="Bridal makeup application"
+                loading="lazy"
+                width="600"
+                height="600"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec-blush" id="testimonials">
+        <div class="wrap">
+          <div class="head reveal">
+            <h2>Kind words</h2>
+            <p>Sample reviews written for this demo.</p>
+          </div>
+          <div class="quotes">
+            <blockquote class="quote reveal">
+              <p>
+                Amara understood exactly the soft, glowy look I wanted for my
+                wedding. Eleven hours later, it still looked flawless in every
+                photo.
+              </p>
+              <footer>Sofia R., bridal client</footer>
+            </blockquote>
+            <blockquote class="quote reveal">
+              <p>
+                The signature facial is the calmest hour of my month. My skin
+                has never looked this even, and nobody pushed products on me.
+              </p>
+              <footer>Hannah K., regular guest</footer>
+            </blockquote>
+            <blockquote class="quote reveal">
+              <p>
+                I brought a blurry photo and left with the exact blowout I
+                imagined. The studio feels like a boutique hotel.
+              </p>
+              <footer>Priya M., first-time guest</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="booking">
+        <div class="wrap book">
+          <div class="reveal">
+            <h2>Book your appointment</h2>
+            <p class="lead">
+              Choose a service and a time that suits you. We will confirm by
+              message within one working day.
+            </p>
+            <p class="notice" role="note">
+              <strong>Demo only.</strong> This form runs in your browser and
+              does not send bookings to a real salon.
+            </p>
+          </div>
+          <form id="bookForm" class="form reveal" novalidate>
+            <div class="field">
+              <label for="name">Full name</label
+              ><input
+                id="name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                required
+                aria-describedby="name-e"
+              />
+              <p class="err" id="name-e"></p>
+            </div>
+            <div class="field">
+              <label for="phone">Phone number</label
+              ><input
+                id="phone"
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                inputmode="tel"
+                placeholder="+1 555 555 0123"
+                required
+                aria-describedby="phone-e"
+              />
+              <p class="err" id="phone-e"></p>
+            </div>
+            <div class="field">
+              <label for="service">Service</label>
+              <select
+                id="service"
+                name="service"
+                required
+                aria-describedby="service-e"
+              >
+                <option value="">Select a service</option>
+                <option>Bridal Makeup</option>
+                <option>Signature Facial</option>
+                <option>Hair Styling</option>
+                <option>Manicure</option>
+                <option>Skincare Treatment</option>
+              </select>
+              <p class="err" id="service-e"></p>
+            </div>
+            <div class="two">
+              <div class="field">
+                <label for="date">Preferred date</label
+                ><input
+                  id="date"
+                  name="date"
+                  type="date"
+                  required
+                  aria-describedby="date-e"
+                />
+                <p class="err" id="date-e"></p>
+              </div>
+              <div class="field">
+                <label for="time">Preferred time</label>
+                <select
+                  id="time"
+                  name="time"
+                  required
+                  aria-describedby="time-e"
+                >
+                  <option value="">Select a time</option>
+                  <option>10:00 AM</option>
+                  <option>11:00 AM</option>
+                  <option>12:00 PM</option>
+                  <option>2:00 PM</option>
+                  <option>3:00 PM</option>
+                  <option>4:00 PM</option>
+                  <option>5:00 PM</option>
+                </select>
+                <p class="err" id="time-e"></p>
+              </div>
+            </div>
+            <button class="btn btn-dark" type="submit">
+              Request Appointment
+            </button>
+            <div
+              id="confirm"
+              class="confirm"
+              role="status"
+              aria-live="polite"
+              tabindex="-1"
+              hidden
+            ></div>
+          </form>
+        </div>
+      </section>
+
+      <section class="sec sec-champ" id="contact">
+        <div class="wrap">
+          <div class="head reveal">
+            <h2>Visit the studio</h2>
+            <p>
+              All details below are fictional. Replace them in
+              <code>script.js</code>.
+            </p>
+          </div>
+          <div class="contact">
+            <div class="reveal">
+              <h3>Call or write</h3>
+              <p><a data-bind="phone-link"></a></p>
+              <p><a data-bind="email-link"></a></p>
+              <a
+                class="btn btn-dark"
+                data-bind="wa-link"
+                target="_blank"
+                rel="noopener"
+                >Book on WhatsApp</a
+              >
+              <p class="small">Demo number. Replace before real use.</p>
+            </div>
+            <div class="reveal">
+              <h3>Opening hours</h3>
+              <ul class="hours" data-bind="hours"></ul>
+            </div>
+            <div class="reveal">
+              <h3>Find us</h3>
+              <address data-bind="address"></address>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot-in">
+        <div>
+          <a href="#home" class="logo logo-l"
+            ><span class="logo-mark">L</span
+            ><span>Luxe <em>Beauty Studio</em></span></a
+          >
+          <p class="small">A fictional salon created as a portfolio demo.</p>
+        </div>
+        <nav aria-label="Footer">
+          <h3>Quick links</h3>
+          <a href="#services">Services</a><a href="#about">About</a
+          ><a href="#gallery">Gallery</a><a href="#booking">Book</a>
+        </nav>
+        <div>
+          <h3>Follow</h3>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+            >Instagram</a
+          ><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+            >Facebook</a
+          ><a href="https://www.pinterest.com/" target="_blank" rel="noopener"
+            >Pinterest</a
+          >
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <a data-bind="phone-link"></a><a data-bind="email-link"></a
+          ><span data-bind="address-inline"></span>
+        </div>
+      </div>
+      <p class="copy">
+        &copy; <span id="yr">2026</span> Luxe Beauty Studio. Fictional business,
+        demo website.
+      </p>
+    </footer>
+
+    <dialog id="lb" class="lb" aria-label="Image viewer">
+      <button class="lb-x" id="lbX" aria-label="Close image">&times;</button>
+      <button class="lb-n lb-prev" id="lbP" aria-label="Previous image">
+        &#8249;
+      </button>
+      <img id="lbImg" alt="" />
+      <button class="lb-n lb-next" id="lbN" aria-label="Next image">
+        &#8250;
+      </button>
+    </dialog>
+
+    <dialog id="team" class="team" aria-labelledby="teamT">
+      <h3 id="teamT">Meet our experts</h3>
+      <ul>
+        <li><strong>Amara Voss</strong>, founder and bridal artist</li>
+        <li><strong>Elena Marsh</strong>, lead esthetician</li>
+        <li><strong>Julien Cade</strong>, creative hair director</li>
+        <li><strong>Mina Park</strong>, nail artist</li>
+      </ul>
+      <p class="small">Fictional team members for this demo.</p>
+      <form method="dialog">
+        <button class="btn btn-dark btn-sm">Close</button>
+        <a href="#booking" class="btn btn-line btn-sm" id="teamBook"
+          >Book with us</a
+        >
+      </form>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
